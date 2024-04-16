@@ -1,5 +1,15 @@
 header {
-    background-color: brown;
+    background-color: navy;
     color: white;
     text-align: center;
+}
+
+main {
+    background-color: lightgray;
+    background-image: url("record.png");
+    padding: 1em;
+}
+
+body {
+    margin: 0;
 }
