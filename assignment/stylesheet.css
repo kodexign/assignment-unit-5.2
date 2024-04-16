@@ -1,10 +1,11 @@
 .header {
-    background-color: navy;
+    background-color: rgb(88, 20, 175);
     color: white;
     text-align: center;
 }
 
-.main {
+main {
+    display: block;
     background-color: lightgray;
     color: white;
     font-size: 1.25em;
@@ -19,10 +20,69 @@ body {
 
 }
 
-/* the following is not my work*/
-/* took it off the web because */
-/* I really wanted the png to spin */
+h3{
+    text-decoration: underline;
+    font-size: 2em;
+}
+
+.best{
+    display: block;
+    background-color: rgba(197, 197, 246, 0.883);
+    color:rgb(64, 42, 77);
+    display: block;
+    float: left;
+    margin: 1em;
+    padding: .5em;
+    height: auto;
+    width: 15em;
+    text-align: center;
+}
+
+.newRelease{
+    display: block;
+    background-color: rgba(197, 197, 246, 0.883);
+    color:rgb(64, 42, 77);
+    display: block;
+    float: left;
+    margin: 1em;
+    padding: .5em;
+    height: auto;
+    width: 15em;
+    text-align: center;
+}
+
+.faves{
+    display: block;
+    background-color: rgba(197, 197, 246, 0.883);
+    color:rgb(64, 42, 77);
+    display: block;
+    float: left;
+    margin: 1em;
+    padding: .5em;
+    height: auto;
+    width: 15em;
+    text-align: center;
+}
+
+.coming{
+    display: block;
+    background-color: rgba(197, 197, 246, 0.883);
+    color:rgb(64, 42, 77);
+    display: block;
+    float: left;
+    margin: 1em;
+    padding: .5em;
+    height: auto;
+    width: 15em;
+    text-align: center;
+}
+
+
+/* took this animation off the web because */
+/* I really wanted the img to spin */
 .rotate {
+    width: 10em;
+    height: 10em;
     animation: rotation 8s infinite linear;
   }
   
