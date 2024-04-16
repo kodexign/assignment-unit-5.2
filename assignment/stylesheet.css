@@ -7,7 +7,7 @@
 .main {
     background-color: lightgray;
     color: white;
-    font-size: 12px;
+    font-size: 1.25em;
     padding: 1em;
     text-align: center;
 }
@@ -15,8 +15,23 @@
 body {
     background-image: url("record.png");
     background-repeat: repeat;
-    margin: 0;
+    margin: 0em;
 
 }
 
+/* the following is not my work*/
+/* took it off the web because */
+/* I really wanted the png to spin */
+.rotate {
+    animation: rotation 8s infinite linear;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
 
