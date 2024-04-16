@@ -1,15 +1,22 @@
-header {
+.header {
     background-color: navy;
     color: white;
     text-align: center;
 }
 
-main {
+.main {
     background-color: lightgray;
-    background-image: url("record.png");
+    color: white;
+    font-size: 12px;
     padding: 1em;
+    text-align: center;
 }
 
 body {
+    background-image: url("record.png");
+    background-repeat: repeat;
     margin: 0;
+
 }
+
+
